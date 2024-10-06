@@ -2,6 +2,6 @@
 
 export default function About() {
   return (
-    <h1>Contact</h1>
+    <h1>About Us</h1>
   )
 }

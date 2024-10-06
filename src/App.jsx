@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import SearchAppBar from "./components/Navigation/SearchAppBar";
 import Home from "./components/Home/Home"; // Sample component
 import About from "./components/About/About"; // Sample component
+import MenShoesPage from './components/MenShoes/MenShoesPage';
 
 function Layout() {
    return (
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       children: [
          { path: '/', element: <Home /> }, // Home component
          { path: 'about', element: <About /> }, // About component
+         { path: 'MenShoes', element: <MenShoesPage/> }, // Men Shoes
          { path: '*', element: <><h1>Page Not Found</h1></> } // About component
       ],
    },
